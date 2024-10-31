@@ -1,0 +1,6 @@
+__pycode__ : exe 파일 빌드 전, 원본 소스 코드가 담긴 파일
+__uidesign__ : ui 디자인을 위한 ppt가 담긴 파일
+__arduino__ : 아두이노에 업로드 해야 하는 스케치 파일
+build : pyinstaller로 빌드된 exe파일 --> main.exe는 ./lib/generic/fonts 및 ./lib/generic/icons를 참조하기 때문에, __pycode__에서 따로 복사하여 넣어줘야함
+
+나머지 : installer 만들기 위한 것들
